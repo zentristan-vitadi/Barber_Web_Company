@@ -37,7 +37,6 @@
 }
 .right-side{
     width: 33%;
-    
 }
 
 
@@ -64,4 +63,25 @@
     border: 2px solid var(--primary-text-color);
     width: 60%;
     margin-top: 20%;
+}
+.SaloonServiceDesc{
+    font-weight: var(--heavy-font);
+    padding-top: 30px;
+    /* background-color: aqua; */
+}
+.BarberChairIMG{
+    /* background-color: aqua; */
+    width: 20%;
+}
+
+.OurSpecials{
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+.OurSpecialsDesc{
+    font-weight: var(--heavy-font);
+}
+a.HaircutsLink{
+    color: var(--primary-text-color);
+    font-weight: var(--heavy-font);
 }
