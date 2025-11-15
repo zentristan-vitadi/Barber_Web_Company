@@ -8,13 +8,15 @@
     --primary-background-colour: #14140e;
     --light-text-color: #faf9f5;
 }
+.backgroundColour1{
+    background-color: #ffd438;
+}
+.ExperienceBody{
+    background-color: var(--background-color);
+}
 .hero{
     min-height: 120vh;
     background-color: var(--background-color);
-}
-.container-xl{
-    
-    margin-top: 5%;
 }
 .ContactUs-Button{
     padding: 10px 20px;
@@ -27,7 +29,7 @@
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.1);
 }
 .vignette {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -56,7 +58,7 @@
 
 .HeroHeading{
     color: var(--primary-text-color);
-    font-size: 60px;
+    font-size: 90px;
 }
 .blog{
     margin-top: 20%;
@@ -84,7 +86,7 @@
 }
 .BarberChairIMG{
     /* background-color: aqua; */
-    width: 20%;
+    width: 30%;
 }
 
 .OurSpecials{
@@ -103,7 +105,7 @@ a.HaircutsLink{
     background-color: var(--primary-background-colour);
     border: none;
     color: var(--light-text-color);
-    margin-left: 10%;
+    
 }
 .AppointmentButton i{
     color: var(--light-text-color);
