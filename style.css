@@ -8,6 +8,7 @@
     --primary-background-colour: #14140e;
     --light-text-color: #faf9f5;
 }
+
 .backgroundColour1{
     background-color: #ffd438;
 }
@@ -34,7 +35,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0 0 50px rgba(0,0,0,0.9) inset;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9) inset;
 }
 
 .left-side{
@@ -47,12 +48,6 @@
     width: 33%;
     /* background-color: aqua; */
 }
-
-
-
-
-
-
 
 
 
@@ -109,4 +104,8 @@ a.HaircutsLink{
 }
 .AppointmentButton i{
     color: var(--light-text-color);
+}
+.getMakeoverButton a{
+    color: var(--primary-text-color);
+
 }
