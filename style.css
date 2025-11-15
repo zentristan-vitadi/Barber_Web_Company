@@ -5,15 +5,21 @@
     --primary-text-color: #1d1c18;
     --background-color: #c2b3a3;
     --heavy-font: 600;
+    --primary-background-colour: #14140e;
+    --light-text-color: #faf9f5;
 }
 .hero{
     min-height: 120vh;
     background-color: var(--background-color);
 }
+.container-xl{
+    
+    margin-top: 5%;
+}
 .ContactUs-Button{
     padding: 10px 20px;
-    background-color: black;
-    color: white;
+    background-color: var(--primary-background-colour);
+    color: var(--light-text-color);
     border: none;
     transition: 0.5s;
 }
@@ -37,6 +43,7 @@
 }
 .right-side{
     width: 33%;
+    /* background-color: aqua; */
 }
 
 
@@ -64,10 +71,16 @@
     width: 60%;
     margin-top: 20%;
 }
+
+/* .SaloonService{
+    background-color: aqua;
+} */
 .SaloonServiceDesc{
     font-weight: var(--heavy-font);
-    padding-top: 30px;
+    padding-top: 40px;
     /* background-color: aqua; */
+    font-size: 20px;
+    
 }
 .BarberChairIMG{
     /* background-color: aqua; */
@@ -84,4 +97,14 @@
 a.HaircutsLink{
     color: var(--primary-text-color);
     font-weight: var(--heavy-font);
+}
+
+.AppointmentButton{
+    background-color: var(--primary-background-colour);
+    border: none;
+    color: var(--light-text-color);
+    margin-left: 10%;
+}
+.AppointmentButton i{
+    color: var(--light-text-color);
 }
