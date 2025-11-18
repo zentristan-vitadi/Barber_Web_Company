@@ -4,6 +4,9 @@
 body{
     background-color: var(--background-color);
 }
+footer{
+    color: var(--light-text-color);
+}
 :root{
     --primary-text-color: #1d1c18;
     --background-color: #c2b3a3;
@@ -36,6 +39,13 @@ button:hover{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.UpperFooterButton.active{
+    opacity: 1;
+}
+.invisibleBorder{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 
 .ShopHeadingText{
     font-size: 5vh;
@@ -159,4 +169,17 @@ a.HaircutsLink{
 }
 .NumberOfCities{
     font-size: 60px;
+}
+
+.UpperFooterButton{
+    color: var(--light-text-color);
+    border: none;
+    background-color: var(--primary-background-colour);
+    font-size: 5vh;
+    opacity: 0.5;
+    margin: 0%;
+}
+.miscFooterButton:hover{
+    cursor: pointer;
+    scale: 1.03;
 }
