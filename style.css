@@ -1,12 +1,17 @@
 *{
     font-family: oswald;
 }
+body{
+    background-color: var(--background-color);
+}
 :root{
     --primary-text-color: #1d1c18;
     --background-color: #c2b3a3;
     --heavy-font: 600;
     --primary-background-colour: #14140e;
     --light-text-color: #faf9f5;
+    --light-bg-color: #fff4e6;
+    --feedback-bg-colour: #fff4e6;
 }
 
 .navbar.scrolling-active{
@@ -27,7 +32,10 @@ button:hover{
     border: 0.5px solid white;
     padding: 25px;
 }
-
+.paddingFiller{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 .ShopHeadingText{
     font-size: 5vh;
@@ -37,8 +45,15 @@ button:hover{
 }
 .backgroundColour1{
     background-color: #ffd438;
+    
+}
+.feedbackBackground{
+    background-color: var(--feedback-bg-colour);
 }
 .ExperienceBody{
+    background-color: var(--background-color);
+}
+.transformBody{
     background-color: var(--background-color);
 }
 .hero{
@@ -53,7 +68,7 @@ button:hover{
     transition: 0.5s;
 }
 .ContactUs-Button:hover{
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .vignette {
   /* position: fixed; */
@@ -80,6 +95,8 @@ button:hover{
 .HeroHeading{
     color: var(--primary-text-color);
     font-size: 90px;
+    background-color: var(--light-bg-color);
+    padding: 10px;
 }
 .blog{
     margin-top: 20%;
@@ -139,5 +156,7 @@ a.HaircutsLink{
 }
 .getMakeoverButton a{
     color: var(--primary-text-color);
-
+}
+.NumberOfCities{
+    font-size: 60px;
 }
